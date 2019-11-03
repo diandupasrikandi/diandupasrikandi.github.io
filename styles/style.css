@@ -1,0 +1,223 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Courgette|Handlee&display=swap');
+/* End Font */
+
+/*Start body*/
+body{
+    background:url(../fotoproduk/frangipani-flowers.jpg);
+    background-size:cover;
+    color:black;
+    font-family: Courgette, Arial, Sans Serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End body */
+
+/* Start Debug */
+.bg-atas{
+    background-color: rgba(161, 241, 136, 0.452);
+}
+.bg-red {
+    background-color:red ;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width:90%;
+}
+
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width:100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo{
+    text-align:center ;
+}
+/* End Logo */
+
+/* Start Anchore / Hyperlink */
+a:link,
+a:visited {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color: saddlebrown;
+    text-decoration:underline;
+}
+
+/* Start Menu Primer */
+.menu-primer {
+    margin: 0 auto;
+    text-align: center;
+}
+.menu-primer ul{
+    background-color: rgb(241, 216, 216);
+    border-radius:4px;
+    box-shadow: 
+        0 3px 5px -1px  rgba(0,0,0,.2),
+        0 6px 10px 0  rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+    margin: 0 auto!important;
+}
+.menu-primer li{
+    border-right: 2px solid green;
+    display: inline-block; 
+    margin: 0 -4px;
+}
+
+.menu-primer a{
+    color:green;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;  
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color:lightsalmon;
+    color:black;
+    text-decoration:none;
+}
+
+.menu-primer .active{
+    background-color: khaki;
+    color:brown;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron{
+    background-color:none;
+    border: 1px solid #4270b4;
+    border-radius: 4px;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.jumbotron h1{
+    
+    font-size: 50px;
+    line-height: 100px;
+    padding: 0 20px;
+}
+
+.jumbotron h2{
+    font-size: 20px;
+    padding : 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two{
+    float: right;
+    width: 50%49.5;
+}
+/* Start Box */
+.box-heading{
+    background:none;
+    
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform:uppercase;
+}
+.box-isi{
+    background-color: none;
+    border: 1px solid e;
+    border-top: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Menu Sekunder*/
+.menu-sekunder{
+   
+    border-bottom:1px blueviolet ;
+    border-top: 1px  blueviolet;
+    overflow: auto;
+    padding:10px 0;
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto ;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{ 
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style: dist ;
+}
+/* End Menu Sekunder*/
+
+/* Start Effect */
+.snip1352 {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 31%;
+    max-width: 315px;
+    height: 220px;
+    width: 100%;
+    display: inline-table;
+   
+  }
+  .snip1352 img {
+    max-width: 100%;
+    vertical-align: top;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+  }
+  .snip1352:hover img,
+  .snip1352.hover img {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  /* Demo purposes only */
+  body {
+    background-color: #212121;
+  }
+/* End Effect */
